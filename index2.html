@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ランディングページ</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #ffffff;
+        }
+
+        .image-section {
+            width: 100%;
+            position: relative;
+        }
+
+        .image-section img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* レスポンシブ対応 */
+        @media (max-width: 768px) {
+            .container {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- ========================================
+             画像のURLまたはファイル名をここに入力
+             ======================================== -->
+        
+        <!-- 画像1 -->
+        <div class="image-section">
+            <img src="images/image1.png" alt="セクション1">
+        </div>
+
+        <!-- 画像2 -->
+        <div class="image-section">
+            <img src="images/image2.png" alt="セクション2">
+        </div>
+
+        <!-- 画像3 -->
+        <div class="image-section">
+            <img src="images/image3.png" alt="セクション3">
+        </div>
+
+        <!-- 画像4 -->
+        <div class="image-section">
+            <img src="images/image4.png" alt="セクション4">
+        </div>
+
+        <!-- 画像5 -->
+        <div class="image-section">
+            <img src="images/image5.png" alt="セクション5">
+        </div>
+
+    </div>
+</body>
+</html>
